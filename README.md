@@ -32,7 +32,7 @@ Bu proje, 42 eğitim programı kapsamında Docker ve Docker Compose kullanarak b
 4. **Container ve log kontrolü**
    ```bash
    make ps
-   make log```
+   make log
 5. **Erişim**
    https://login.42.fr (Not: /etc/hosts dosyanıza 127.0.0.1 login.42.fr satırını eklemeyi unutmayın.)
 
@@ -57,15 +57,15 @@ This project aims to deploy a complete system infrastructure using Docker and Do
 1. **Clone the repo:**
    ```bash
    git clone https://github.com/KubraNurGulfidan/42-inception.git
-   cd 42-inception```
+   cd 42-inception
 2. **Configuration**
    Fill in the required database/user credentials in the .env file and set passwords in the secrets folder.
 3. **Run**
    ```bash
-   make```
+   make
 4. **Container & log**
    ```bash
    make ps
-   make log```
+   make log
 5. **Access**
    https://login.42.fr (Note: Don't forget to add 127.0.0.1 login.42.fr to your /etc/hosts file.)
