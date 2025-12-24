@@ -22,7 +22,7 @@ Bu proje, 42 eğitim programı kapsamında Docker ve Docker Compose kullanarak b
 1. **Repoyu klonlayın**
    ```bash
    git clone https://github.com/KubraNurGulfidan/42-inception.git
-   cd 42-inception```
+   cd 42-inception
 2. **Yapılandırma**
    .env dosyasında istenen gerekli veritabanı/kullanıcı bilgilerini girin.
    secrets klasörü içerisindeki dosyalarda istenenleri (şifre belirleme) yapın.
