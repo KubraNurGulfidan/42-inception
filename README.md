@@ -1,7 +1,6 @@
-### Inception
+# Inception
 
-(TR)
-## Proje Hakkında
+## Proje Hakkında (TR)
 Bu proje, 42 eğitim programı kapsamında Docker ve Docker Compose kullanarak bütün bir sistem altyapısını kodla ayağa kaldırmayı amaçlar. Tüm servisler (Nginx, MariaDB, WordPress) Alpine Linux tabanlı özel Dockerfile'lar ile oluşturulmuştur.
 
 ## Altyapı Mimarisi
@@ -17,27 +16,9 @@ Bu proje, 42 eğitim programı kapsamında Docker ve Docker Compose kullanarak b
 - SSL sertifikaları ile güvenli (HTTPS) bağlantı sağlanmıştır.
 - `Makefile` üzerinden tek komutla tüm sistem ayağa kaldırılabilir.
 
-## Kurulum ve Kullanım
+---
 
-1. **Repoyu klonlayın**
-   ```bash
-   git clone https://github.com/KubraNurGulfidan/42-inception.git
-   cd 42-inception
-2. **Yapılandırma**
-   .env dosyasında istenen gerekli veritabanı/kullanıcı bilgilerini girin.
-   secrets klasörü içerisindeki dosyalarda istenenleri (şifre belirleme) yapın.
-3. **Çalıştırma**
-   ```bash
-   make
-4. **Container ve log kontrolü**
-   ```bash
-   make ps
-   make log
-5. **Erişim**
-   https://login.42.fr (Not: /etc/hosts dosyanıza 127.0.0.1 login.42.fr satırını eklemeyi unutmayın.)
-
-(EN)
-## About the Project
+## About the Project (EN)
 This project aims to deploy a complete system infrastructure using Docker and Docker Compose as part of the 42 curriculum. All services (Nginx, MariaDB, WordPress) are built with custom Dockerfiles based on Alpine Linux.
 
 ## Infrastructure Architecture
@@ -52,20 +33,22 @@ This project aims to deploy a complete system infrastructure using Docker and Do
 - Secure (HTTPS) connection provided via self-signed SSL certificates.
 - The entire system can be deployed with a single command via `Makefile`.
 
-## Installation & Usage
+---
 
-1. **Clone the repo:**
+## Kurulum ve Kullanım / Installation & Usage
+
+1. **Repoyu klonlayın / Clone the repo:**
    ```bash
    git clone https://github.com/KubraNurGulfidan/42-inception.git
    cd 42-inception
-2. **Configuration**
-   Fill in the required database/user credentials in the .env file and set passwords in the secrets folder.
-3. **Run**
+2. **Yapılandırma / Configuration**
+   .env dosyasında istenen gerekli veritabanı/kullanıcı bilgilerini girin, secrets klasörü içerisindeki dosyalarda istenenleri (şifre belirleme) yapın. / Fill in the required database/user credentials in the .env file and set passwords in the secrets folder.
+3. **Çalıştırma / Run**
    ```bash
    make
-4. **Container & log**
+4. **Container ve log kontrolü / Container & log**
    ```bash
    make ps
    make log
-5. **Access**
+5. **Erişim / Access**
    https://login.42.fr (Note: Don't forget to add 127.0.0.1 login.42.fr to your /etc/hosts file.)
